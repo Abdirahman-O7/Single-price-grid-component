@@ -87,7 +87,7 @@ ul {
 
 }
 
-@media (width < 475px) {
+@media (width < 550px) {
   .flex {
     display: grid;
     grid-template-columns: 1fr;
