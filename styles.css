@@ -1,0 +1,91 @@
+body {
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px;
+  box-shadow: 1px 0px 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.top {
+  padding: 20px 20px 10px 20px;
+}
+
+.top h4 {
+  margin-top: 0;
+  color: hsl(179, 64%, 37%);
+}
+
+.top p {
+  font-size: 12px;
+  color: gray;
+  margin: 5px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.left-side {
+  flex: 50%;
+  background-color: hsl(179, 64%, 37%);
+  padding: 20px 20px;
+}
+
+.monthly-price span {
+  color: hsl(204, 43%, 93%);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.monthly-price p {
+  color: hsl(179, 62%, 43%);
+}
+
+.day-price p {
+  color: hsl(204, 43%, 93%);
+  font-size: 13px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: rgb(247, 247, 214);
+  border: none;
+  border-radius: 5px;
+  width: 190px;
+  padding: 10px 0;
+  margin: 5px 0;
+  box-shadow: 1px 0px 10px rgba(0,0,0,0.2);
+}
+
+.right-side {
+  flex: 50%;
+  background-color: hsl(179, 62%, 43%);
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: hsl(205, 56%, 83%);
+  font-size: 14px;
+  line-height: 1.2rem;
+
+}
+
+.flex h5{
+  margin: 10px 0;
+  color: hsl(204, 43%, 93%);
+
+}
+
+@media (width < 500px) {
+  .flex {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
